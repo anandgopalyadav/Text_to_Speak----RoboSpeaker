@@ -7,9 +7,10 @@ engine.say("Let's start")
 engine.runAndWait()
 while True:
     a = input("What you want me to Speak: ")
-    if a == "q" or "Q":
-        engine.say('Bye bye')
+    if a == "q":
+        engine.say("Bye Bye")
         engine.runAndWait()
         break
     engine.say(a)
     engine.runAndWait()
+print("The End")
